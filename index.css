@@ -33,7 +33,7 @@ header {
   position: absolute;
   align-items: center;
   top: 15%;
-  left: 5%;
+  left: 8%;
 }
 .hero-logo img {
   margin: 5px;
@@ -43,20 +43,20 @@ header {
   font-size: 7rem;
   font-family: "KernelBold";
   bottom: 35%;
-  left: 4%;
+  left: 6%;
   color: var(--primary-color-yellow);
 }
 .hero-text {
   color: var(--white);
   position: absolute;
   bottom: 10%;
-  left: 4%;
+  left: 6%;
   font-size: 1.6rem;
   letter-spacing: 1px;
   font-family: "Pitch";
 }
 .support {
-  padding: 3% 4%;
+  padding: 3% 6%;
   background-color: var(--secondary-color-blue);
 }
 .support h2 {
@@ -95,7 +95,7 @@ header {
 }
 .works {
   background-color: var(--black);
-  padding: 3% 4%;
+  padding: 3% 6%;
 }
 .works h2 {
   color: #91f7f7;
@@ -147,7 +147,7 @@ header {
 }
 
 .services {
-  padding: 3% 4%;
+  padding: 3% 6%;
   background-color: var(--black);
 }
 
@@ -204,7 +204,7 @@ header {
 }
 
 .blog {
-  padding: 3% 4%;
+  padding: 3% 6%;
   background-color: var(--black);
 }
 .blog h2 {
@@ -253,7 +253,7 @@ header {
 }
 
 .about {
-  padding: 10% 9% 4%;
+  padding: 10% 9% 6%;
   background-color: var(--black);
   display: flex;
   gap: 30px;
@@ -320,7 +320,10 @@ header {
     background: url("images/bg-emison.jpg") right/cover;
   }
   .hero-title {
-    font-size: 5rem;
+    font-size: 3.5rem;
+  }
+  .hero-text {
+    font-size: 1rem;
   }
   .support-row,
   .works-row,
@@ -342,7 +345,9 @@ header {
   .about-img-cont img {
     width: 300px;
   }
-
+  h2 {
+    font-size: 2rem;
+  }
   h2,
   h3,
   h4 {
